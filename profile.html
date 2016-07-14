@@ -1,102 +1,49 @@
 <!DOCTYPE html>
+<head>
 <title>Rosy's CSSI Profile</title>
+<link rel="stylesheet" href="profile.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="profile.js"></script>
+</head>
 <body>
-  <style>
-
-  body {
-    font-family: arial;
-    Margin: 50px;
-  }
-  .item1
-  {background: plum;
-  padding: 10px;
-  display: inline-block;
-  width: 30%;
-  height:200px;}
-
-  .item2
-  {background: greenyellow;
-  padding: 10px;
-  display: inline-block;
-  width: 30%;
-  height: 250px;}
-
-  .item3
-  {background: salmon;
-  padding: 10px;
-  display: inline-block;
-  width: 30%;
-  height: 200px;}
-
-  .item4
-  {background: yellow;
-  padding: 10px;
-  margin: 10px;
-  display: inline-block;
-  float: left;
-  width: 30%;
-  height: 200px;}
-
-  .item5
-  {background: aquamarine;
-  padding: 10px;
-  margin: 10px;
-  display: inline-block;
-  width: 30%;
-  height: 200px;}
-
-  .item6
-  {background: orange;
-  padding: 10px;
-  margin: 10px;
-  display: inline-block;
-  float: right;
-  width: 30%;
-  height: 200px;}
-
-  .pinkback {background:pink;
-  color:white;
-  Margin: 20px;
-  Padding: auto;}
-  </style>
 
 <center>
   <h1 class="pinkback">Rosetta Pendleton</h1>
-
-  <img src="Rosy.jpg" width="300" height="350" alt="Photo of Rosy">
+  <img src="Rosy.jpg" id="Rosy">
   <p> Nicknames: Rosy, ChocolateMochi
 </center>
 
-
-<section class="item1">
+<section class="Summary">
   <h2>Summary</h2>
-  <p>As of July 10th, 2016 I have begun my adventures as an official CSSIer at Google Seattle. Google and programming is the best!</p>
+  <p>As of July 10th, 2016 I have begun my adventures as an official CSSIer at Google Seattle. Google and programming is the best! This website reflects what I have learned about html, CSS, and Git from Day 1 of CSSI class. Thank you for visiting my profile (:</p>
 </section>
 
-<section class="item2">
-  <h2>Hometown</h2>
+<section class="Hometown">
   <center>
+  <h2>Hometown</h2>
   <img src="hawaii.jpg" width="200px" height="125px" alt="Photo of Honolulu">
-</center>
   <p>Honolulu, Hawaii</p>
+  </center>
 </section>
 
-<section class="item3">
+<section class="Contact">
 <h2>Contact Info</h2>
 <ul>
-  <li>email: rosy.pen.1@gmail.com</li>
+  <li>personal email: rosy.pen.1@gmail.com</li>
   <li>phone #: (808) 780-4109</li>
   <li><a href="http://plus.google.com/u/0/100114206602732897090/">Google+</a></li>
 </ul>
 </section>
 
-<section class="item4">
+<section class="Uni">
 <h2>University</h2>
+<a href="http://uci.edu">
   <img src="uci.png" width="100px" height="100px">
 University of California, Irvine
+</a>
 </section>
 
-<section class="item5">
+<section class="Movies">
 <h2>My Favorite Movies</h2>
 <ol>
   <li>Howl's Moving Castle</li>
@@ -106,8 +53,15 @@ University of California, Irvine
 
 </section>
 
-<section class="item6">
+<section class="Links">
   <h2>Fun Links!</h2>
-<a href="http://hsykwon.github.io/">Check Out Hannah's Profile!</a>
+<a href="http://hsykwon.github.io/profile/profile.html">Check Out Hannah's Profile!</a><br>
+<a href="http://preyeshawaii.github.io/"> Check Out Paulina's Profile!</a></br>
 </section>
+  <h1 class="pinkback">Leave a comment below!</h1>
+  <input type="text" name="comment" placeholder="write something!" id="comment">
+  <button>Comment</button>
+  <br>
+  <p id="thing"> [Your comment will post here] </p>
+</br>
 </body>

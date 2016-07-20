@@ -21,7 +21,7 @@ height:200px;}
 padding: 10px;
 display: inline-block;
 width: 30%;
-height: 250px;}
+height: 300px;}
 
 .Contact
 {background: salmon;
@@ -37,7 +37,7 @@ margin: 10px;
 display: inline-block;
 float: left;
 width: 30%;
-height: 200px;}
+height: auto;}
 
 .Movies
 {background: aquamarine;
@@ -45,7 +45,7 @@ padding: 10px;
 margin: 10px;
 display: inline-block;
 width: 30%;
-height: 300px;}
+height: auto;}
 
 .Links
 {background: orange;
@@ -54,9 +54,9 @@ margin: 10px;
 display: inline-block;
 float: right;
 width: 30%;
-height: 200px;}
+height: auto;}
 
 .pinkback {background:pink;
 color:white;
-Margin: 20px;
-Padding: auto;}
+margin-top: 50px;
+Padding: 5px;}
